@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agenlp"
+version = "0.0.1"
+description = "Agentic NLP — LLM loops + traditional NLP as tools, with human-in-the-loop"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{name = "Korakot Chaovavanich"}]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/korakot/agenlp"
